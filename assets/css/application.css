@@ -1573,6 +1573,13 @@ footer {
   width: 64px;
   height: 64px;
   display: block;
+  -webkit-transition: opacity 1s linear;
+  transition: opacity 1s linear;
+}
+.list-social-pixelpraise span:hover,
+.list-social-projectfork span:hover {
+  opacity: 0.7;
+  filter: alpha(opacity=70);
 }
 .list-social-pixelpraise .icon-twitter {
   background-position: 0 384px;
