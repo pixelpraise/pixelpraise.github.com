@@ -1,0 +1,115 @@
+//
+// Theme
+// --------------------------------------------------
+body {
+	text-align: center;
+}
+section > .container {
+	padding: 80px 0;
+}
+footer {
+	padding-bottom: 40px;
+}
+.pixelpraise {
+	background: url('../images/backgrounds/austin.jpg') no-repeat 50% 50%;
+	background-size: cover;
+	border-bottom: 20px solid #380000;
+
+}
+.projectfork {
+	background: url('../images/backgrounds/office.jpg') no-repeat 50% 50%;
+	background-size: cover;
+	border-top: 20px solid #6B8E42;
+}
+.title-projectfork {
+	color: @brand-success;
+	line-height: 2;
+	margin-top: -10px;
+	text-transform: uppercase;
+}
+.image {
+	background-image: url('../images/images.png');
+	text-indent: -9999px;
+}
+.image-pixelpraise {
+	margin: 40px auto;
+	width: 348px;
+	height: 340px;
+}
+.image-projectfork {
+	background-position: 100% 0;
+	margin: 40px auto 0 auto;
+	width: 104px;
+	height: 352px;
+}
+.link-projectfork {
+	color: @brand-danger;
+	text-transform: uppercase;
+	position: relative;
+
+	&:hover {
+		color: lighten(@brand-danger, 10%);
+		text-decoration: none;
+	}
+
+	.image-arrow {
+		background-position: 0 100%;
+		display: block;
+		margin: 10px auto;
+		width: 100px;
+		height: 60px;
+	}
+}
+.list-inline {
+	margin: 40px 0;
+}
+.list-employees {
+	span {
+		width: 150px;
+		height: 150px;
+		display: block;
+		margin: 0 auto 20px auto;
+	}
+	.image-kyle {
+		background-position: -285px 100%;
+	}
+	.image-tobias {
+		background-position: -468px 100%;
+	}
+	.image-melinda {
+		background-position: 100% 100%;
+	}
+}
+.list-social-pixelpraise,
+.list-social-projectfork {
+	span {
+		width: 64px;
+		height: 64px;
+		display: block;
+	}
+}
+.list-social-pixelpraise {
+	.icon-twitter {
+		background-position: 0 384px;
+	}
+	.icon-facebook {
+		background-position: -86px 384px;
+	}
+	.icon-mail {
+		background-position: -172px 384px;
+	}
+}
+.list-social-projectfork {
+	.icon-twitter {
+		background-position: 0 263px;
+	}
+	.icon-facebook {
+		background-position: -86px 263px;
+	}
+	.icon-mail {
+		background-position: -172px 263px;
+	}
+	.icon-link {
+		background-position: -254px 263px;
+	}
+}
